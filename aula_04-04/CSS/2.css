@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Source+Code+Pro:ital,wght@0,200..900;&display=swap')
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background:radial-gradient(#217373, #173540);
+	background-size:100vw 100vh;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.cabecalho{
+	width: 15vw;
+	height: 5vh;
+	margin-left: 42.4vw;
+	background-color: #84B026;
+	border: 2px ridge black;
+	border-radius: 16px;
+	flex-direction: column;
+	text-align: center;
+}
+section.cabecalho h1{
+	font-size: 2vw;
+	font-family:"Rubik Doodle Shadow", system-ui;
+}
+section.conteudo{
+	width: 60vw;
+	height: 50vh;
+	margin-left: 20vw;
+	margin-top: 3vh;
+	background-color: white;
+	border: 1px dashed black;
+	border-radius: 16px;
+}
+#texto{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+#texto p{
+	font-size: 1.5vw;
+	font-family: "Source Code Pro",
+}
+#imagem{
+	width: 95%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+#imagem img{
+	max-width: 90%;
+	max-height: 90%;
+	width: auto;
+	height: auto;
+
+}
+section.link{
+	width: 5vw;
+	height: 3vh;
+	margin-top: 3vh;
+	margin-left: 47vw;
+	background-color: #F2CB05;
+	border: 4px inset black;
+}
+section.link div a{
+	font-size: 1.2vw;
+	color: #2D61A6;
+	font-family: "Monotype Corsiva", cursive;
+}

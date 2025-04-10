@@ -1,0 +1,35 @@
+body{
+background-color:#2D61A6;
+}
+h1{
+	color:#F2CA50;
+	text-align: center;
+	font-size: 60pt;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+p{
+	text-align: justify;
+	text-indent: 10%;
+	line-height: 1.5cm;
+	font-family:"Lucida Handwriting;",cursive;
+	color:#F2B705;
+
+}
+img{
+	width: 20vw; /*view width - visão da largura */
+	height: 40vh; /*view height - visão da altura */
+	margin-left: 40vw;
+	opacity: 0.9;
+	border-radius:18px;
+}
+a{
+	margin-left: 48vw;
+	font-size: 13pt;
+	font-family: "jokerman","helvetica";
+	color: white;
+}
+a:hover{
+	background-color:#F22613;
+	color: #A6A6A6;
+}
