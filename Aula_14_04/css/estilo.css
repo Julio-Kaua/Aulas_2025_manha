@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Jersey+10&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tilt+Neon&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.menu{
+	width: 90vw;
+	margin-left: 5vw;
+	height: 10vh;
+	background-color: #0D0D0D;
+}
+#logo{
+	width: 9%;
+	height: 93%;
+	margin-left: -10vw;
+}
+#logo img{
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+}
+#navegacao{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+#botoes{
+	width: 100%;
+	height: 40%;
+	display: flex;
+	justify-content: center;	
+}
+div.botao{
+	width: 15%;
+	margin-left: 5%;
+	text-align: center;
+	background-color: #8C7B49;
+	border-radius: 16px;
+	border: 1px ridge #BFAA3F;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+div.botao a{
+	text-decoration: none;
+	color: white ;
+	font-family: "Jersey 10", sans-serif;
+	font-size: 1vw;
+	display: block;
+}
+div.botao:hover a{
+	color: black;
+}
+section.conteudo{
+	width: 90vw;
+	margin-left: 5vw;
+	height: 79vh;
+}
+section.conteudo iframe{
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}
+section.rodape{
+	width: 90vw;
+	height: 10vh;
+	margin-left: 5vw;
+	background-color: #0D0D0D;
+}
+#texto {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+#texto p{
+	font-size: 0.9vw;
+	color: white;
+	font-family: "Jersey 10", sans-serif;
+}
+#sobre{
+	border-left: 5px dotted #8C7B49;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+#sobre p{
+	color: white;
+	font-size: 0.7vw;
+	font-family: "Jersey 10", sans-serif;
+}
+section.resultado, form{
+	width: 70vw;
+	height: auto;
+	min-height: 30vh;
+	margin-left: 15vw;
+	background-color: #BBA446;
+	border: 2px ridge black;
+	border-radius: 16px;
+	box-shadow: 10px 10px 7px black;
+	margin-top: 15vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+section.resultado h1,form h1{
+	font-family: "Rubik", sans-serif;
+	font-size: 2.2vw;
+	color: black;
+}
+section.resultado p,form p{
+	font-family: "Rubik", sans-serif;
+	font-size: 1.2vw ;
+	color: black;
+
+}
+input[type=submit]{
+	background-color: #8C7B49;
+	border-radius: 10px;
+	border: 1px ridge black;
+	padding: 0.5%;
+	width: 15%;
+	color: white;
+	margin-top: 3vh;
+}
+a.link{
+	font-family: "Rubik", sans-serif;
+	color: white;
+}
